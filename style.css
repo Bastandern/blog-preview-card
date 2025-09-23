@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.blog-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px #000000;
+  max-width: 384px;
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 7%);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+}
+.blog-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  align-items: flex-start;
+}
+.blog-category {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  padding: 4px 12px;
+  gap: 8px;
+  display: inline-block;
+  /*文字样式*/
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  line-height: 150%;
+  font-size: 14px;
+}
+.blog-date {
+  color: hsl(0, 0%, 7%);
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 14px;
+}
+.blog-title-link h1 {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 24px;
+}
+.blog-title-link:hover h1 {
+  color: hsl(47, 88%, 63%);
+}
+.blog-description {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
+}
+.blog-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+.blog-author img {
+  width: 32px;
+  height: 32px;
+}
+.author-name {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  line-height: 150%;
+  font-size: 14px;
+}
