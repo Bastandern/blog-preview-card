@@ -5,6 +5,18 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
 body {
   font-family: 'Figtree', sans-serif;
   background-color: hsl(47, 88%, 63%);
